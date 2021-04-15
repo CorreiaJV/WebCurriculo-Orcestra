@@ -29,7 +29,7 @@
 }
 .TitleUnderlineContato{
     background-color: #FFFFFF;    
-    opacity: 50%;
+    opacity: 0.5;
     
 }
 .TextContato{
@@ -55,7 +55,7 @@
     background-color: #FFFFFF;
     width: 110%;
     height: 0.1rem;
-    opacity: 50%;
+    opacity: 0.5;
     
 }
 @media(max-width:800px){
