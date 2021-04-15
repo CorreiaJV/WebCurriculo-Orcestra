@@ -1,7 +1,7 @@
 import React from 'react'
-import profile from './css/Profile.css'
+import  './css/Profile.css'
 import foto from '../assets/img/foto.jpeg'
-import base from './css/Base.css'
+import  './css/Base.css'
 
 
 const Profile=()=>{
@@ -17,7 +17,7 @@ const Profile=()=>{
                 <h4 className = "TitlePerf">Sobre mim</h4>
                 <span className= "TextPerf">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo alias doloribus ducimus. Quaerat alias quos odio omnis, voluptatum unde quidem porro quia autem velit repellat rem reprehenderit impedit architecto nostrum.</span> 
             </div>
-            <div> <img src= {foto} className ="FotoPerf"></img> </div>
+            <div> <img src= {foto} className ="FotoPerf" alt=""></img> </div>
             <div className= "Container"> 
                 <h4 className = "TitlePerf" >Detalhes</h4>
                 

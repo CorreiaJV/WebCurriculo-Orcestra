@@ -1,5 +1,5 @@
 import React from 'react'
-import hab from './css/Habilidades.css'
+import  './css/Habilidades.css'
 
 
 const Habilidades=()=>{
@@ -22,7 +22,8 @@ const Habilidades=()=>{
             </div>            
         </section>
         <div className= "SpacerBtn">
-            <a className ="btnGit" href = "https://github.com/CorreiaJV" target="_blank">
+            <a className ="btnGit" href = "https://github.com/CorreiaJV" target="_blank" rel="noopener noreferrer">
+                
                  Git/Github</a>
         </div>
     </div>

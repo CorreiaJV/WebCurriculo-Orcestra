@@ -1,7 +1,7 @@
 import React from 'react'
-import Form from './css/Formacao.css'
-import base from './css/Base.css'
-import foto from '../assets/img/foto.jpeg'
+import  './css/Formacao.css'
+import  './css/Base.css'
+import  '../assets/img/foto.jpeg'
 
 
 

@@ -1,6 +1,6 @@
 import React from 'react'
-import Cont from './css/contato.css'
-import base from './css/Base.css'
+import './css/contato.css'
+import  './css/Base.css'
 
 
 import { FaLinkedin} from 'react-icons/fa';
