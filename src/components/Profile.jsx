@@ -15,7 +15,10 @@ const Profile=()=>{
         <div className= "Column">
             <div className= "Container">
                 <h4 className = "TitlePerf">Sobre mim</h4>
-                <span className= "TextPerf">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo alias doloribus ducimus. Quaerat alias quos odio omnis, voluptatum unde quidem porro quia autem velit repellat rem reprehenderit impedit architecto nostrum.</span> 
+                <span className= "TextPerf">Sou apaixonado por tecnologia e 
+                desenvolvimento, sigo  meu caminho profissional alinhado a essa paixão. <br/> 
+                Atualmente, estou me dedicando ao front-end estudando React Js para web e 
+                Flutter para mobile.</span> 
             </div>
             <div> <img src= {foto} className ="FotoPerf" alt=""></img> </div>
             <div className= "Container"> 
