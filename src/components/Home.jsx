@@ -1,6 +1,8 @@
-import Home from './css/Home.css'
-export default props =>
-<div className= "Home">
+import home from './css/Home.css'
+
+const Home=()=>{
+
+return(<div className= "Home">
     < div className = "BackBlue">   
     
     <section className= "ContainerHome">
@@ -13,4 +15,7 @@ export default props =>
     </section>
 </div>
 
-</div>
+</div>)
+}
+
+export default Home

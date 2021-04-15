@@ -4,9 +4,12 @@ import Profile from './css/Profile.css'
 import base from './css/Base.css'
 import orc from '../assets/img/OrcestraCapacete.png'
 
-export default props=>
 
-<section className ="BackColorExp"> 
+
+
+const Exp=()=>{
+
+    return(<section className ="BackColorExp"> 
     <div className ="Base">
         <h2 className="Title" id= "Experiencia" > Experiência </h2>
         <section className= "UnderlineContainer">
@@ -21,4 +24,7 @@ export default props=>
         </div>
         
     </div>
-</section>
+</section>)
+    }
+    
+    export default Exp

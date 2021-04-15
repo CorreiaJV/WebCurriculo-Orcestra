@@ -1,9 +1,12 @@
 import React from 'react'
-import Profile from './css/Profile.css'
+import profile from './css/Profile.css'
 import foto from '../assets/img/foto.jpeg'
 import base from './css/Base.css'
-export default props =>
-<section className ="BackColor" id= "Profile"> 
+
+
+const Profile=()=>{
+
+    return(<section className ="BackColor" id= "Profile"> 
     <div className ="Base">
         <h2 className="Title" > Perfil </h2>
         <section className= "UnderlineContainer">
@@ -30,4 +33,7 @@ export default props =>
             </div>
         </div>
     </div>
-</section>
+</section>)
+    }
+    
+    export default Profile

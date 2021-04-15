@@ -1,7 +1,10 @@
 import React from 'react'
 import hab from './css/Habilidades.css'
-export default prop =>
-<section className ="BackColor"> 
+
+
+const Habilidades=()=>{
+
+    return(<section className ="BackColor"> 
     <div className ="Base">
         <h2 className="Title" id= "Habilidade"> Habilidades </h2>
         <section className= "UnderlineContainer">
@@ -23,4 +26,7 @@ export default prop =>
                  Git/Github</a>
         </div>
     </div>
-</section>
+</section>)
+    }
+    
+    export default Habilidades
