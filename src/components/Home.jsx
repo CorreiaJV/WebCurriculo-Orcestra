@@ -1,4 +1,4 @@
-import home from './css/Home.css'
+import './css/Home.css'
 
 const Home=()=>{
 
