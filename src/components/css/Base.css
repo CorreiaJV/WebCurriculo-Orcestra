@@ -1,0 +1,91 @@
+.Base,.BaseWhite{
+    color: #17B1A8;
+    font-weight: 100;
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Maven Pro', sans-serif;
+    margin: 0rem 3rem 0rem 3rem ;
+    
+}
+.Column{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20;
+    margin-top: 2rem;
+}
+.Row{
+    display: flex;
+    text-align: start;
+}
+
+.Title,.TitleContato{
+    padding-top: 2rem;
+    font-weight: 550;
+}
+.Text{
+    
+    color: #1A1919;
+    text-align: start;
+    font-size: 25px;
+    margin-top: 1rem;
+   
+}
+.SubText{
+    color:#1A1919;
+    font-size: 20px;
+}
+.BackColor{
+    background-color: white;
+    padding-bottom: 3rem;
+    width: 100%;    
+}
+.UnderlineContainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1rem;
+}
+.TitleUnderline,.TitleUnderlineWhite,.TitleUnderlineContato{
+    background-color: black;
+    width: 60%;
+    height: 0.1rem;
+    opacity: 30%;    
+}
+.Container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+@media (max-width: 624px){
+    .Base{
+        display: flex;
+        flex-direction: column;
+    }
+    .Column{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+@media(max-width: 510px){
+    .Title{
+        font-size: 30px;
+    }
+    .SubText{
+        font-size: 20px;
+    }
+    .Text{
+        font-size: 20px;
+    }
+    }
+@media(max-width: 300px){
+.Title{
+    font-size: 20px;
+}
+.SubText{
+    font-size: 13px;
+}
+.Text{
+    font-size: 10px;
+}
+}

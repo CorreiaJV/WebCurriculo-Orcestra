@@ -1,17 +1,27 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import Profile from './components/Profile'
+import Exp from './components/Exp'
+import Formacao from './components/Formacao'
+import Home from './components/Home'
+import Habilidades from './components/Habilidades'
+import Contato from './components/Contato'
+import NavBar from './components/NavBar'
+
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+    <div>
+    <div className= "Parallax">
+    <NavBar></NavBar>
+        <Home></Home>
+        <Profile></Profile>
+        <Formacao></Formacao>
+        <Exp></Exp>
+        <Habilidades></Habilidades>
+        <Contato></Contato>
+        
+    </div>
+    </div>,
+    document.getElementById('root')
+)   

@@ -1,0 +1,21 @@
+*{
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+
+}
+.BackColorForm{
+    background-color: #DBDBDB;
+    padding-bottom: 3rem;
+    width: 100%;
+}
+
+
+.TitleUnderlineWhite{
+    background-color: #FFFFFF;
+    opacity: 100%;
+    
+}
+
+

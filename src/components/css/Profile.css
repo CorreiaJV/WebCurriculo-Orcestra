@@ -1,0 +1,40 @@
+
+*{
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+
+}
+
+.Column{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20;
+    margin-top: 2rem;
+}
+.TitlePerf{
+    text-align: start;
+    margin-top: 1rem;
+    font-weight: 200;
+   
+}
+.TextPerf{
+    
+    color: #737D7D;
+    text-align: start;
+    font-size: 25px;
+    margin-top: 1rem;
+   
+}
+
+
+.FotoPerf{
+    border-radius: 50%;
+    width: 85%;
+}
+.BackColor{
+    background-color: white;
+    padding-bottom: 3rem;    
+}
+

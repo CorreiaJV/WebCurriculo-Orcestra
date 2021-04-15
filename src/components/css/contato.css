@@ -1,0 +1,81 @@
+.BackColorBlack{
+    background-color: #40403E;
+    padding-bottom: 10rem;
+}
+.ContainerCont
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+.Icon{
+    width: 100px;
+    height: 50px;
+    padding-top: 0.5rem;
+    
+
+}
+
+.BaseWhite{
+    color:white;
+    
+    
+}
+.TitleContato{
+    color: white;
+    
+   
+}
+.TitleUnderlineContato{
+    background-color: #FFFFFF;    
+    opacity: 50%;
+    
+}
+.TextContato{
+   
+        text-align: start;
+        margin-top: 1rem;
+        font-weight: 200;    
+        text-decoration: none; 
+        color: inherit; 
+    
+}
+.RowContato{
+    display: flex;
+    text-align: start;
+}
+
+.RowContato:hover{
+    color: #17B1A8;
+    text-decoration: none;
+    cursor: pointer;
+}
+.Barrinha5{
+    background-color: #FFFFFF;
+    width: 110%;
+    height: 0.1rem;
+    opacity: 50%;
+    
+}
+@media(max-width:800px){
+    .TextContato{
+        font-size: 1rem;
+    }
+    .TitleContato{
+        font-size: 1.5rem;
+    }
+    .Icon{
+        width: 70px;
+        height: 30px;
+        padding-top: 0.5rem;
+    }
+}
+@media(max-width:295px){
+    .TextContato{
+        font-size: 0.8rem;
+    }
+    .TitleContato{
+        font-size: 1rem;
+    }
+}

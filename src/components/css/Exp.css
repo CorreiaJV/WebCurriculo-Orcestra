@@ -1,0 +1,31 @@
+.BackColorExp{
+    background-color: #ECE8C8;
+    padding-bottom: 3rem;
+}
+
+.Orc{
+    width: 12rem;
+    
+}
+.ContainerOrc{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 3rem;
+}
+@media(max-width: 430px){
+     .Orc{
+         width: 8rem;
+         height: 10rem;
+         padding-top: 2rem;
+     }
+     .Row{font-size: 30px;}
+}
+@media(max-width: 340px){
+    .Orc{
+        width: 5rem;
+        height: 8rem;
+        padding-top: 2rem;
+    }
+    .Row{font-size: 30px;}
+}

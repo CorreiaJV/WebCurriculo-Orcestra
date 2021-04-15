@@ -1,0 +1,59 @@
+
+.ContainerHab{
+    width: 80%;
+    margin:auto;
+    
+}
+.skills{
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+.skills ul li{
+    background: #E9E2E2;
+    border-radius: 100rem;
+    margin-bottom: 1rem ;
+}
+.skills ul li span{
+    color:#17B1A8;
+    background: #32322F;
+    border-radius: 100rem;
+    padding: 0.5rem;
+    display: block;
+    font-size: 25px;
+    transition: width 0.3s;
+}
+.skills ul li span:hover{
+    width:100% !important;
+}
+.SpacerBtn{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 0rem;
+    
+}
+.btnGit{
+    background-color: #32322F;
+    color: #17B1A8;
+    border-radius: 100rem;
+    padding: 0.7rem;
+    font-size: 30px;
+    width: 40%;
+    text-align: center;
+    text-decoration: none;
+}
+@media(max-width: 625px ){
+    .skills ul li span{
+        font-size: 20px;
+        
+    }
+    .btnGit{
+        font-size: 20px;
+    }
+}
+@media(max-width: 510px ){
+    .skills ul li span{
+        font-size: 20px;
+        padding: 0.25rem;
+    }
+}
