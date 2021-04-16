@@ -2,7 +2,10 @@ import './css/Home.css'
 
 const Home=()=>{
 
-return(<div className= "Home">
+return(
+
+
+<div className= "Home">
     < div className = "BackBlue">   
     
     <section className= "ContainerHome">
@@ -13,7 +16,7 @@ return(<div className= "Home">
         <h1 className= "TitleHome"> Desenvolvedor</h1>
         
     </section>
-</div>
+    </div>
 
 </div>)
 }
