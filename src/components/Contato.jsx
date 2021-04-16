@@ -31,7 +31,8 @@ import { FaWhatsapp} from "react-icons/fa";
                     </div>
                     <div className= "RowContato">
                         <GoMail className= "Icon"/>         
-                            <h4 className = "TextContato">correia.jv16@gmail.com</h4> 
+                            <a className= "TextContato" href= "mailto:correia.jv16@gmail.com?subject=Olá%20João" 
+                            target= "blank">correia.jv16@gmail.com</a> 
                     </div>
                     <div className= "RowContato">
                         <FaWhatsapp className= "Icon"/>         
